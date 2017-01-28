@@ -81,6 +81,10 @@
 	text-decoration: none;
 }
 
+.footer-link:hover{
+	text-decoration: underline;
+}
+
 .search-area {
 	width: 475px;
 	margin: 35px auto;

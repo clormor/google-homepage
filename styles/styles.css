@@ -50,10 +50,35 @@
 
 .footer {
 	width: 100%;
-	height: 50px;
-	clear: both;
+	overflow: hidden;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
+}
+
+.footer-right {
+	height: 35px;
+	margin-top: 15px;
+	position: inline;
+	float: right;
+}
+
+.footer-left {
+	height: 35px;
+	margin-top: 15px;
+	position: inline;
+	float: left;
+}
+
+.footer-list {
+	display: inline;
+	margin: 15px;
+}
+
+.footer-link {
+	display: inline;
+	font: 13px arial, sans-serif;
+	color: #666;
+	text-decoration: none;
 }
 
 .search-area {

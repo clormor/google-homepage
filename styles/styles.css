@@ -1,11 +1,16 @@
+/*
+ * Page sizing, sticky footer
+ */
+
 html, body {
 	height: 100%;
 }
 
 .footer, .push {
-	height: 40px;
+	height: 39px;
 }
 
+/* Give the page some height */
 .push {
 	margin-top: 100px;
 }
@@ -20,6 +25,14 @@ html, body {
 	min-height: 100%;
 	margin: 0 auto -40px;
 }
+
+/*
+ * End - Page sizing, sticky footer
+ */
+
+/*
+ * Logo
+ */
 
 .google-logo-container {
 	margin: 150px auto 0px auto;
@@ -44,6 +57,14 @@ html, body {
 	display: block;
 }
 
+/*
+ * End - Logo
+ */
+
+/*
+ * Search box
+ */
+
 .voice-logo-container {
 	border: 1px solid black;
 	width: 8%;
@@ -57,49 +78,6 @@ html, body {
 	font: 16px arial,sans-serif;
 	padding: 0;
 	border: 0;
-}
-
-.navbar {
-	height: 50px;
-}
-
-.footer {
-	width: 100%;
-	overflow: hidden;
-    background-color: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
-}
-
-.footer-right {
-	height: 35px;
-	margin-top: 10px;
-	margin-right: 5px;
-	position: inline;
-	float: right;
-}
-
-.footer-left {
-	height: 35px;
-	margin-top: 10px;
-	margin-left: 5px;
-	position: inline;
-	float: left;
-}
-
-.footer-list {
-	display: inline;
-	margin: 15px;
-}
-
-.footer-link {
-	display: inline;
-	font: 13px arial, sans-serif;
-	color: #666;
-	text-decoration: none;
-}
-
-.footer-link:hover{
-	text-decoration: underline;
 }
 
 .search-area {
@@ -142,7 +120,13 @@ html, body {
 	height: 24px;
 }
 
-.button-area {}
+/*
+ * End - Search box
+ */
+
+/*
+ * Search buttons
+ */
 
 .button-form {
     text-align: center;
@@ -170,3 +154,66 @@ html, body {
     border: 1px solid #4d90fe;
     color: black;
 }
+
+/*
+ * End - Search buttons
+ */
+
+/*
+ * Header styling
+ */
+
+.navbar {
+	height: 50px;
+}
+
+/*
+ * End - Header styling
+ */
+
+/*
+ * Footer styling
+ */
+
+.footer {
+	width: 100%;
+	overflow: hidden;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer-right {
+	height: 35px;
+	margin-top: 10px;
+	margin-right: 5px;
+	position: inline;
+	float: right;
+}
+
+.footer-left {
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 5px;
+	position: inline;
+	float: left;
+}
+
+.footer-list {
+	display: inline;
+	margin: 15px;
+}
+
+.footer-link {
+	display: inline;
+	font: 13px arial, sans-serif;
+	color: #666;
+	text-decoration: none;
+}
+
+.footer-link:hover{
+	text-decoration: underline;
+}
+
+/*
+ * End - Footer styling
+ */

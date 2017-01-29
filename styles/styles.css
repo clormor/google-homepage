@@ -9,6 +9,7 @@ body {
 
 .footer,
 .push {
+	/* subtract border width from height, hence 39 not 40 */
 	height: 39px;
 }
 
@@ -86,8 +87,9 @@ body {
 }
 
 .search-voice {
+	position: relative;
 	display: inline;
-	vertical-align: middle;
+	bottom: -6px;
 }
 
 .search-voice img {
@@ -162,8 +164,17 @@ body {
 
 .bar-list {
 	display: inline;
-	padding: 10px;
+	padding: 5px;
 	text-decoration: none;
+}
+
+.top .bar-list {
+	position: relative;
+	top: -35px;
+}
+
+#apps-list {
+	top: 0;
 }
 
 .link {
@@ -185,4 +196,16 @@ body {
 	background-color: #4285f4;
 	border-radius: 2px;
 	padding: 8px 14px;
+}
+
+#apps {
+	background: transparent url('../images/apps_normal.png') center top no-repeat;
+	width: 50px;
+	height: 20px;
+	padding-top: 30px;
+	display: inline-block;
+}
+
+#apps:hover {
+	background: transparent url('../images/apps_hover.png') center top no-repeat;
 }

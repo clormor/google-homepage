@@ -3,7 +3,11 @@ html, body {
 }
 
 .footer, .push {
-	height: 39px;
+	height: 40px;
+}
+
+.push {
+	margin-top: 100px;
 }
 
 .spacing {
@@ -56,7 +60,6 @@ html, body {
 }
 
 .navbar {
-	border: 1px dashed grey;
 	height: 50px;
 }
 
